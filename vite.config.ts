@@ -15,10 +15,12 @@ export default defineConfig({
       },
       server: {
         entry: "./app/ssr.tsx",
-        preset: "vercel",
       },
       client: {
         entry: "./app/client.tsx",
+      },
+      spa: {
+        enabled: true,
       },
     }),
     react(),
