@@ -1,0 +1,8 @@
+node_modules/
+.output/
+dist/
+.env
+*.local
+.DS_Store
+app/routeTree.gen.ts
+app.config.timestamp_*.js
